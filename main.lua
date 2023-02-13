@@ -5,11 +5,9 @@ print("Enter value of temperature: ")
 temp = io.read()
 if (unit=="C" or unit=="c")
 then
-    f=temp*(9/5)+32
-    x=f
+    x=temp*(9/5)+32
 elseif(unit=="F" or unit=="f")
 then
-    c=(temp-32)*5/9
-    x=c
+    x=(temp-32)*5/9
 end
 print("The converted temperature is: ",x)
